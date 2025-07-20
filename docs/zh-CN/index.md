@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Everywhere"
+  name: "随处"
   text: ""
   tagline: My great project tagline
   actions:
@@ -23,3 +23,4 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+[a](/a)

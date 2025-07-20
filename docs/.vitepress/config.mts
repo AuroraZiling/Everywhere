@@ -7,8 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Home', link: '/' }
     ],
 
     sidebar: [
@@ -26,13 +25,17 @@ export default defineConfig({
     ]
   },
   locales: {
-    root: {
+    'en-US': {
+      lang: 'en-US',
       label: 'English',
-      lang: 'en'
+      title: 'Everywhere',
+      dir: 'en-US'
     },
-    zh: {
+    'zh-CN': {
+      lang: 'zh-CN',
       label: '简体中文',
-      lang: 'zh'
+      title: 'Everywhere',
+      dir: 'zh-CN'
     }
   }
 })
